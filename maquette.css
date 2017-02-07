@@ -1,0 +1,62 @@
+#car{
+margin-top:0;
+margin:0;
+padding:0;
+width:1680px;
+}
+#menu{
+  margin:auto;
+  height:36px;
+  text-align: center;
+  background-color: #DDE1E1
+  ;
+}
+#menu li{
+    list-style: none;
+    display:inline;
+    margin-top:50%;
+}
+
+
+.container{
+  margin-top:25px;
+  margin-left:30%;
+  margin-right:20%;
+  box-shadow: 6px 6px 0px #BDD3E1;
+  border-radius:40px;
+}
+
+.header{
+  margin:0;
+  padding:0;
+
+}
+#welcome{
+  background-image:url(bg-title.png);
+  background-repeat:no-repeat;
+  padding:auto;
+  color:white;
+}
+
+#men{
+  text-align:right;
+  margin-right:20px;
+  margin-bottom:40px;
+}
+
+
+#information{
+  background-color:#124495;
+}
+
+.title{
+  background-image:url(bg-bloc-title.png);
+  background-repeat:no-repeat;
+  padding:auto;
+  color:white;
+}
+
+#list{
+  border:1px solid orange;
+
+}
