@@ -1,62 +1,131 @@
-#car{
-margin-top:0;
-margin:0;
-padding:0;
-width:1680px;
-}
-#menu{
-  margin:auto;
-  height:36px;
-  text-align: center;
-  background-color: #DDE1E1
-  ;
-}
-#menu li{
-    list-style: none;
-    display:inline;
-    margin-top:50%;
+#header{
+    background-image: url(header.jpg);
+    background-repeat:no-repeat;
+    height: 381px;
+    width:100%;
 }
 
+.icone{
+  color:#E65C01;
+}
+
+
+#menu {
+  background-color: #DCDCDC;
+  width: 100%;
+  font-size: 20px;
+  color: #E65C01;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+
+#menu li{
+    text-decoration: none;
+    display:inline;
+    border-right:1px solid #124495;
+    padding-right:10px;
+    padding-left:5px;
+  }
+
+#menu li:last-child{
+    border: none;
+  }
 
 .container{
-  margin-top:25px;
-  margin-left:30%;
-  margin-right:20%;
+  width:50%;
+  margin-left:15%;
+  margin-right:10%;
+  padding: 25px;
   box-shadow: 6px 6px 0px #BDD3E1;
-  border-radius:40px;
-}
-
-.header{
-  margin:0;
-  padding:0;
+  border-radius:20px;
 
 }
+
+
+
 #welcome{
   background-image:url(bg-title.png);
   background-repeat:no-repeat;
-  padding:auto;
   color:white;
 }
 
 #men{
   text-align:right;
   margin-right:20px;
-  margin-bottom:40px;
 }
 
 
 #information{
   background-color:#124495;
+  width:100%;
+  display:inline-block;
+}
+
+#center{
+  margin-left:25%;
+}
+
+.block1, .block2,.block3{
+width:29%;
+display: inline-block;
+vertical-align: top;
+margin:20px;
+}
+
+
+.picture, #card{
+  position:relative;
+  float:left;
 }
 
 .title{
   background-image:url(bg-bloc-title.png);
   background-repeat:no-repeat;
-  padding:auto;
+  padding-left: 40px;
   color:white;
 }
 
-#list{
+.list{
   border:1px solid orange;
+  border-radius: 5px;
+  color:white;
+  width:100%;
+}
 
+#footer {
+  width: 100%;
+  background-color: #E65C01;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  display: inline;
+  float: left;
+}
+
+#inline li{
+  text-decoration: none;
+  display:inline;
+  text-align: center;
+}
+
+#card{
+  margin:10px;
+  padding:0px;
+  width:90px;
+  height:90px;
+}
+
+#map{
+  width:100%;
+}
+
+a{
+  text-decoration: none;
+  color:#E65C01;
+}
+
+#footer ul li a{
+  color:white;
 }
